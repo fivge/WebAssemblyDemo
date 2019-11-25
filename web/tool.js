@@ -33,4 +33,4 @@ const wasmBrowserInstantiate = async (wasmModuleUrl, importObject) => {
   return response;
 };
 
-export { wasmBrowserInstantiate };
+// export { wasmBrowserInstantiate };
