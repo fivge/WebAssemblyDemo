@@ -1,4 +1,10 @@
-const value = 21;
+// service worker
+/** FIXME: service worker 缓存刷新 */
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("/web/sw.js", { scope: "/web/" });
+}
+
+const value = 41;
 
 let resultJs = null;
 let resultAsWasm = null;
