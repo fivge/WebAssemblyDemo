@@ -18,8 +18,6 @@ asc foo.ts -b foo.wasm -t foo.wat --sourceMap --validate --optimize
 
 <https://wasmbyexample.dev/examples/hello-world/hello-world.c.en-us.html>
 
-建议在 wsl 中按照环境
-
 ### Examples
 
 #### fibonacci
@@ -73,3 +71,7 @@ emcc hello.c -O3 -o hello.html
 ```
 
 在 html 中引用 js 即可
+
+---
+
+https://mp.weixin.qq.com/s/4lkgmLIkowoPOwgd1g6i0w
